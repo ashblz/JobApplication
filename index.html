@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application Form</title>
+  </head>
+  <body background="simple-pattern-css.webp">
+    <h1 align="center">Job Application Form</h1>
+    <hr width="50%" align="center" size="4" color="white" noshade="2" /><br /> 
+    <form action="Register">
+      <table align="center">
+      <tr>
+        <th><b><label for="fname">Full Name</label></b></th> <td><input type="text" size="50" id="fname" placeholder="Enter your Full Name here"/></td></tr> <br />
+        <tr><th><b><label for="JT">Job Title</label></b></th> <td><input type="text" size="50" id="JT" placeholder="Enter your Job Title" /></td></tr> <br />
+        <tr><th><b><label for="CCom">Current Company</label></b></th><td><input type="text" size="50" id="CCom" placeholder="Enter your Company Name" /></td></tr> <br /> 
+        <tr><th><b><label for="Cno">Contact Number</label></b></th><td><select name="Country Code">
+          <option value="India">+91</option>
+          <option value="USA">+1</option>
+          <option value="Russia">+442</option>
+          <option value="Pak">+52</option>
+          <option value="NOTA">Other</option>
+        </select></b><input type="text" size="41%" id="Cno" placeholder="Enter your Contact Number"/></td></tr> <br />
+        <tr><th><b><label for="mail">Email</label></b></th><td><input type="text" size="50" id="mail" placeholder="Enter your E-mail"/></td></tr> <br />
+        <tr><th><b><label for="WKS">Work Status</label></b></th>
+        <td><input type="radio" name="Work Status" id="WKS" value="Full Time" />
+        <i>Full Time</i>
+        <input type="radio" name="Work Status" value="Part Time" />
+        <i>Part Time</i>
+        <input type="radio" name="Work Status"  value="Per Diem" />
+        <i>Per Diem</i>
+        <input type="radio" name="Work Status"  value="Other" />
+        <i>Other</i></td></tr>
+        <tr><th><b><label for="sal">Salary</label></b></th><td><input type="text" size="15" id="sal" placeholder="Enter your Salary"/> 
+        <!-- <form action="Salary"> -->
+          <select name="In Rupees" id="">
+            <option value="Salary per Month">Salary per Month</option>
+            <option value="50k or above per Month">50k or above per Month</option>
+            <option value="1laks or above per Month">1laks or above per Month</option>
+            <option value="below 50k per Month">below 50k per Month</option>
+          </select>
+          <select name="In Rupees" id="">
+            <option value="Salary Yearly">Salary Yearly</option>
+            <option value="50k or above per Month">10 lpa or above</option>
+            <option value="1laks or above per Month">10 lpa or below</option>
+            <option value="below 50k per Month">Below 10 lpa</option>
+          </select></td></tr><br>
+          <tr><th><b><label for="labl">Experience</label></b></th> <td><input type="text" size="50" id="labl" placeholder="Enter your Experience in Months"></td></tr><br>
+          <th><b><label for="Cloc">Current location</label></b></th><td><input type="text" size="50" id="Cloc" placeholder="Enter your Current Location"></td><br>
+          <tr><th><b><label for="pAdd">Permanent Location</label></b></th> <td><textarea name="Permanent Address" id="pAdd" cols="47" rows="3" id="pAdd" placeholder="Enter your Permanent Address"></textarea></td></tr>
+          <tr><th><b><label for="upld">Upload Resume</label></b></th> <td><input type="file" size="50" id="upld"></td></tr>
+          <tr><th><label for="submt">Submit The Form</label></th><td><input type="submit" id="submt"></td>
+          <td><input type="reset"></td></tr>
+        </form>
+      </tr>  
+        <br />
+      </form>
+    </table>
+    <hr width="50%" align="center" size="4" color="white" noshade="2" /><br> 
+    
+  </body>
+</html>
